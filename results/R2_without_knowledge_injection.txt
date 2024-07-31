@@ -1,0 +1,252 @@
+==================================
+Working on: Typically a mean electric conductance of 25 S.
+RES: "Typically a mean electric conductance of @@25 S##." 
+
+RES: ['S']
+
+Verification result: Siemens 
+
+==================================
+Working on: Time measured in s.
+RES: Time measured in @@s##. 
+
+RES: ['s']
+
+Verification result: Second 
+
+==================================
+Working on: The current through the circuit is 5 A.
+RES: The current through the circuit is @@5 A##. 
+
+RES: ['A']
+
+Verification result: Ampere 
+
+==================================
+Working on: The width of a hydrogen atom is about 1.1 A.
+RES: "The width of a hydrogen atom is about @@1.1 A##." 
+
+RES: ['.1 A']
+
+Verification result: Angstrom 
+
+================================== False
+Working on: The mass m of the sample is 20 g.
+RES: "The mass @@m## of the sample is 20 @@g##." 
+
+RES: ['m', 'g']
+
+Verification result: Gram 
+Verification result: Gram 
+
+================================== False
+Working on: The phone is capable of processing 5 g signals.
+RES: The phone is capable of processing @@5 g## signals. 
+
+RES: ['g']
+
+Verification result: acceleration g 
+
+==================================
+Working on: The magnetic flux density is 20 T.
+RES: "The magnetic flux density is @@20 T##." 
+
+RES: ['T']
+
+Verification result: Tesla 
+
+================================== False
+Working on: The temperature is T is 20 K.
+RES: The temperature is @@T## is @@20 K##. 
+
+RES: ['T', 'K']
+
+Verification result: Kelvin 
+Verification result: Kelvin 
+
+================================== False
+Working on: This is the volume V.
+RES: "This is the @@volume V##." 
+
+RES: ['volume V']
+
+Verification result: liter 
+
+==================================
+Working on: Median voltage is 10 V.
+RES: Median voltage is @@10 V##. 
+
+RES: ['V']
+
+Verification result: Voltage 
+
+==================================
+Working on: Executed at time t, exactly 5 s.
+RES: Executed at time t, exactly @@5 s##. 
+
+RES: ['s']
+
+Verification result: Second 
+
+================================== false
+Working on: The mass m of the element is 5 t.
+RES: The mass @@m## of the element is 5 @@t##. 
+
+RES: ['m', 't']
+
+Verification result: ton 
+Verification result: ton 
+
+================================== 
+Working on: he time starts 20 S after init.
+RES: "he time starts @@20 S## after init." 
+
+RES: ['S']
+
+Verification result: Second 
+
+================================== 
+Working on: The mass of the apple is 150 g.
+RES: "The mass of the apple is @@150 g##." 
+
+RES: ['g']
+
+Verification result: Gram 
+
+==================================
+Working on: The magnetic field strength is 2 T.
+RES: "The magnetic field strength is @@2 T##." 
+
+RES: ['T']
+
+Verification result: Tesla 
+
+==================================
+Working on: We have the surface area is A.
+RES: "We have the @@surface area## is @@A##." 
+
+RES: ['surface area', 'A']
+
+Verification result: None 
+Verification result: None 
+
+================================== false
+Working on: In this example the start time is t and measured in s.
+RES: "In this example the start time is @@t## and measured in @@s##." 
+
+RES: ['t', 's']
+
+Verification result: Second 
+Verification result: Second 
+
+================================== false
+Working on: We observe the temperature defined as T.
+RES: "We observe the @@temperature## defined as @@T##." 
+
+RES: ['temperature', 'T']
+
+Verification result: Kelvin 
+Verification result: Kelvin 
+
+==================================
+Working on: The gravitaional force of earth is 1 g.
+RES: "The gravitaional force of earth is @@1 g##." 
+
+RES: ['g']
+
+Verification result: acceleration g 
+
+================================== false
+Working on: The mass m is 500 g.
+RES: "The mass @@m## is 500 @@g##." 
+
+RES: ['m', 'g']
+
+Verification result: Gram 
+Verification result: Gram 
+
+================================== false
+Working on: The value of g on the moon is equal to 1.625.
+RES: "The value of @@g## on the moon is equal to @@1.625##." 
+
+RES: ['g', '.']
+
+Verification result: acceleration g 
+Verification result: acceleration g 
+
+==================================
+Working on: 4 g signals have been introduced in 2017.
+RES: "@@4 g## signals have been introduced in @@2017##." 
+
+RES: ['g', '']
+
+Verification result: None 
+
+==================================
+Working on: object1 has a mass m.
+RES: "object1 has a @@mass## @@m##." 
+
+RES: ['mass', 'm']
+
+Verification result: Gram 
+Verification result: Gram 
+
+==================================
+Working on: The conductivity is 5 S.
+RES: The conductivity is @@5 S##. 
+
+RES: ['S']
+
+Verification result: Siemens 
+
+==================================
+Working on: The length has the symbol l.
+RES: "The length has the symbol @@l##." 
+
+RES: ['l']
+
+Verification result: meter 
+
+================================== false
+Working on: The volume V is 5 l.
+RES: "The volume @@V## is 5 @@l##." 
+
+RES: ['V', 'l']
+
+Verification result: liter 
+Verification result: liter 
+
+================================== false
+Working on: The area A of a circle.
+RES: "The @@area A## of a circle." 
+
+RES: ['area A']
+
+Verification result: square meter 
+
+================================== false
+Working on: The voltage U is 50 V.
+RES: "The voltage @@U## is @@50 V##." 
+
+RES: ['U', 'V']
+
+Verification result: Voltage 
+Verification result: Voltage 
+
+================================== false
+Working on: The length l is 20 m.
+RES: "The length @@l## is 20 @@m##." 
+
+RES: ['l', 'm']
+
+Verification result: meter 
+Verification result: meter 
+
+==================================
+Working on: An Angstrom A is defined as 0.1 nm.
+RES: "An Angstrom @@A## is defined as @@0.1 nm##." 
+
+RES: ['A', '.1 nm']
+
+Verification result: Angstrom 
+Verification result: nm

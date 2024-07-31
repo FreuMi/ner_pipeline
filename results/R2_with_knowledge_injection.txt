@@ -1,0 +1,385 @@
+==================================
+Working on: Typically a mean electric conductance of 25 S.
+RES: "Typically a mean electric conductance of @@25 S##." 
+
+RES: ['S']
+The closest QUDT unit(s) to 'S':
+QUDT URI: https://qudt.org/vocab/unit/S, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/SEC, Distance: 0.0
+
+Verification result: yes 
+Verification result: no 
+
+==================================
+Working on: Time measured in s.
+RES: Time measured in @@s##. 
+
+RES: ['s']
+The closest QUDT unit(s) to 's':
+QUDT URI: https://qudt.org/vocab/unit/S, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/SEC, Distance: 0.0
+
+Verification result: no 
+Verification result: yes 
+
+==================================
+Working on: The current through the circuit is 5 A.
+RES: The current through the circuit is @@5 A##. 
+
+RES: ['A']
+The closest QUDT unit(s) to 'A':
+QUDT URI: https://qudt.org/vocab/unit/A, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/ANGSTROM, Distance: 0.0
+
+Verification result: yes 
+Verification result: no
+
+
+==================================
+Working on: The width of a hydrogen atom is about 1.1 A.
+RES: "The width of a hydrogen atom is about @@1.1 A##." 
+RES: ['.1 A']
+The closest QUDT unit(s) to '.1 A':
+QUDT URI: https://qudt.org/vocab/unit/A, Distance: 0.5384044647216797
+QUDT URI: https://qudt.org/vocab/unit/ANGSTROM, Distance: 0.5384044647216797
+
+Verification result: no 
+Verification result: yes 
+
+==================================
+Working on: The mass m of the sample is 20 g.
+RES: "The mass @@m## of the sample is 20 @@g##." 
+
+RES: ['m', 'g']
+The closest QUDT unit(s) to 'm':
+QUDT URI: https://qudt.org/vocab/unit/M, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/M3, Distance: 0.6143527626991272
+The closest QUDT unit(s) to 'g':
+QUDT URI: https://qudt.org/vocab/unit/G, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/GM, Distance: 0.8165085315704346
+
+Verification result: no 
+Verification result: no 
+Verification result: no 
+Verification result: yes 
+
+==================================
+Working on: The phone is capable of processing 5 g signals.
+RES: The phone is capable of processing @@5 g## signals. 
+
+RES: ['g']
+The closest QUDT unit(s) to 'g':
+QUDT URI: https://qudt.org/vocab/unit/G, Distance: 0.0
+
+Verification result: no 
+
+
+==================================
+Working on: The magnetic flux density is 20 T.
+RES: "The magnetic flux density is @@20 T##." 
+
+RES: ['T']
+The closest QUDT unit(s) to 'T':
+QUDT URI: https://qudt.org/vocab/unit/T, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/TON_Metric, Distance: 0.0
+
+Verification result: yes 
+Verification result: no 
+
+==================================
+Working on: The temperature is T is 20 K.
+RES: "The temperature is @@T## is @@20 K##." 
+
+RES: ['T', 'K']
+The closest QUDT unit(s) to 'T':
+QUDT URI: https://qudt.org/vocab/unit/T, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/TON_Metric, Distance: 0.0
+The closest QUDT unit(s) to 'K':
+QUDT URI: https://qudt.org/vocab/unit/K, Distance: 0.0
+
+Verification result: no 
+Verification result: no 
+Verification result: yes 
+
+==================================
+Working on: This is the volume V.
+RES: "This is the @@volume## @@V##." 
+
+RES: ['volume', 'V']
+The closest QUDT unit(s) to 'volume':
+The closest QUDT unit(s) to 'V':
+QUDT URI: https://qudt.org/vocab/unit/V, Distance: 0.0
+
+Verification result: no 
+
+==================================
+Working on: Median voltage is 10 V.
+RES: Median voltage is @@10 V##. 
+
+RES: ['V']
+The closest QUDT unit(s) to 'V':
+QUDT URI: https://qudt.org/vocab/unit/V, Distance: 0.0
+Verification result: yes 
+
+==================================
+Working on: Executed at time t, exactly 5 s.
+RES: Executed at time @@t##, exactly @@5 s##. 
+
+RES: ['t', 's']
+The closest QUDT unit(s) to 't':
+QUDT URI: https://qudt.org/vocab/unit/T, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/TON_Metric, Distance: 0.0
+The closest QUDT unit(s) to 's':
+QUDT URI: https://qudt.org/vocab/unit/S, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/SEC, Distance: 0.0
+
+Verification result: no 
+Verification result: no
+Verification result: no
+Verification result: yes 
+
+==================================
+Working on: The mass m of the element is 5 t.
+RES: "The mass @@m## of the element is @@5 t##." 
+
+RES: ['m', 't']
+The closest QUDT unit(s) to 'm':
+QUDT URI: https://qudt.org/vocab/unit/M, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/M3, Distance: 0.6143527626991272
+The closest QUDT unit(s) to 't':
+QUDT URI: https://qudt.org/vocab/unit/T, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/TON_Metric, Distance: 0.0
+
+Verification result: no 
+Verification result: no 
+Verification result: no 
+Verification result: yes 
+
+==================================
+Working on: The time starts 20 S after init.
+RES: The time starts @@20 S## after init. 
+
+RES: ['S']
+The closest QUDT unit(s) to 'S':
+QUDT URI: https://qudt.org/vocab/unit/S, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/SEC, Distance: 0.0
+Verification result: no
+Verification result: yes
+
+==================================
+Working on: The mass of the apple is 150 g.
+RES: "The mass of the apple is @@150 g##." 
+
+RES: ['g']
+The closest QUDT unit(s) to 'g':
+QUDT URI: https://qudt.org/vocab/unit/G, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/GM, Distance: 0.8165085315704346
+
+Verification result: no 
+Verification result: yes
+
+ ==================================
+Working on: The magnetic field strength is 2 T.
+RES: The magnetic field strength is @@2 T##. 
+
+RES: ['T']
+The closest QUDT unit(s) to 'T':
+QUDT URI: https://qudt.org/vocab/unit/T, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/TON_Metric, Distance: 0.0
+
+Verification result: yes 
+Verification result: no 
+
+==================================
+Working on: We have the surface area is A.
+RES: "We have the surface @@area## is @@A##." 
+
+RES: ['area', 'A']
+The closest QUDT unit(s) to 'area':
+The closest QUDT unit(s) to 'A':
+QUDT URI: https://qudt.org/vocab/unit/A, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/ANGSTROM, Distance: 0.0
+
+Verification result: no 
+Verification result: no 
+
+==================================
+Working on: In this example the start time is t and measured in s.
+RES: "In this example the start time is @@t## and measured in @@s##." 
+
+RES: ['t', 's']
+The closest QUDT unit(s) to 't':
+QUDT URI: https://qudt.org/vocab/unit/T, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/TON_Metric, Distance: 0.0
+The closest QUDT unit(s) to 's':
+QUDT URI: https://qudt.org/vocab/unit/S, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/SEC, Distance: 0.0
+
+Verification result: no 
+Verification result: no 
+Verification result: no 
+Verification result: yes 
+
+================================== False
+Working on: We observe the temperature defined as T.
+RES: We observe the @@temperature## defined as @@T##. 
+
+RES: ['temperature', 'T']
+The closest QUDT unit(s) to 'temperature':
+The closest QUDT unit(s) to 'T':
+QUDT URI: https://qudt.org/vocab/unit/T, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/TON_Metric, Distance: 0.0
+
+Verification result: yes 
+Verification result: no 
+
+
+================================== False
+Working on: The gravitaional force of earth is 1 g.
+RES: "The gravitaional force of earth is @@1 g##." 
+
+RES: ['g']
+The closest QUDT unit(s) to 'g':
+QUDT URI: https://qudt.org/vocab/unit/G, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/GM, Distance: 0.8165085315704346
+
+Verification result: yes 
+Verification result: yes 
+
+================================== False
+Working on: The mass m is 500 g.
+RES: "The mass @@m## is 500 @@g##." 
+
+RES: ['m', 'g']
+The closest QUDT unit(s) to 'm':
+QUDT URI: https://qudt.org/vocab/unit/M, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/M3, Distance: 0.6143527626991272
+The closest QUDT unit(s) to 'g':
+QUDT URI: https://qudt.org/vocab/unit/G, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/GM, Distance: 0.8165085315704346
+
+Verification result: yes
+Verification result: no 
+Verification result: no 
+Verification result: yes 
+
+==================================
+Working on: The value of g on the moon is equal to 1.625.
+RES: The value of @@g## on the moon is equal to @@1.625##. 
+
+RES: ['g', '.']
+The closest QUDT unit(s) to 'g':
+QUDT URI: https://qudt.org/vocab/unit/G, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/GM, Distance: 0.8165085315704346
+The closest QUDT unit(s) to '.':
+
+Verification result: yes 
+Verification result: no 
+
+================================== False
+Working on: 4 g signals have been introduced in 2017.
+RES: "@@4 g## signals have been introduced in 2017." 
+
+RES: ['g']
+The closest QUDT unit(s) to 'g':
+QUDT URI: https://qudt.org/vocab/unit/G, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/GM, Distance: 0.8165085315704346
+
+Verification result: no 
+Verification result: yes 
+
+================================== False
+Working on: object1 has a mass m.
+RES: "object1 has a mass @@m##." 
+
+RES: ['m']
+The closest QUDT unit(s) to 'm':
+QUDT URI: https://qudt.org/vocab/unit/M, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/M3, Distance: 0.6143527626991272
+
+Verification result: yes 
+Verification result: no 
+
+
+==================================
+Working on: The conductivity is 5 S.
+RES: The conductivity is @@5 S##. 
+
+RES: ['S']
+The closest QUDT unit(s) to 'S':
+QUDT URI: https://qudt.org/vocab/unit/S, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/SEC, Distance: 0.0
+
+Verification result: yes 
+Verification result: no 
+
+
+================================== False
+Working on: The length has the symbol l.
+RES: The length has the symbol @@l##. 
+
+RES: ['l']
+The closest QUDT unit(s) to 'l':
+QUDT URI: https://qudt.org/vocab/unit/L, Distance: 0.0
+Verification result: yes 
+
+==================================
+Working on: The volume V is 5 l.
+RES: "The volume @@V## is 5 @@l##." 
+
+RES: ['V', 'l']
+The closest QUDT unit(s) to 'V':
+QUDT URI: https://qudt.org/vocab/unit/V, Distance: 0.0
+The closest QUDT unit(s) to 'l':
+QUDT URI: https://qudt.org/vocab/unit/L, Distance: 0.0
+
+Verification result: no 
+Verification result: yes 
+
+==================================
+Working on: The area A of a circle.
+RES: "The @@area A## of a circle." 
+
+RES: ['area A']
+The closest QUDT unit(s) to 'area A':
+
+==================================
+Working on: The voltage U is 50 V.
+RES: The voltage @@U## is @@50 V##. 
+
+RES: ['U', 'V']
+The closest QUDT unit(s) to 'U':
+The closest QUDT unit(s) to 'V':
+QUDT URI: https://qudt.org/vocab/unit/V, Distance: 0.0
+
+Verification result: yes 
+
+==================================
+Working on: The length l is 20 m.
+RES: "The length @@l## is @@20 m##." 
+
+RES: ['l', 'm']
+The closest QUDT unit(s) to 'l':
+QUDT URI: https://qudt.org/vocab/unit/L, Distance: 0.0
+The closest QUDT unit(s) to 'm':
+QUDT URI: https://qudt.org/vocab/unit/M, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/M3, Distance: 0.6143527626991272
+
+Verification result: no 
+Verification result: yes 
+Verification result: no 
+
+==================================
+Working on: An Angstrom A is defined as 0.1 nm.
+RES: "An Angstrom @@A## is defined as 0.1 @@nm##." 
+
+RES: ['A', 'nm']
+The closest QUDT unit(s) to 'A':
+QUDT URI: https://qudt.org/vocab/unit/A, Distance: 0.0
+QUDT URI: https://qudt.org/vocab/unit/ANGSTROM, Distance: 0.0
+The closest QUDT unit(s) to 'nm':
+QUDT URI: https://qudt.org/vocab/unit/NanoM, Distance: 0.0
+
+Verification result: no 
+Verification result: yes
+Verification result: yes
