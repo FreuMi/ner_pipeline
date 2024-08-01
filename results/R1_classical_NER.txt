@@ -1,0 +1,113 @@
+Working on Temperature
+(['temperature'], ['OBSERVABLE_PROP'])
+ 
+Working on Humidity
+(['humidity'], ['OBSERVABLE_PROP'])
+ 
+Working on desiredTemp
+(['desiredtemp'], ['OBSERVABLE_PROP'])
+ 
+Working on desiredTemp
+(['desiredtemp'], ['OBSERVABLE_PROP'])
+ 
+Working on desiredTemp
+(['desiredtemp'], ['OBSERVABLE_PROP'])
+ 
+Working on desiredTemp
+(['desiredtemp'], ['OBSERVABLE_PROP'])
+ 
+Working on RoomMeasuredTemp
+([], [])
+ 
+Working on DesiredTemp
+(['desiredtemp'], ['OBSERVABLE_PROP'])
+ 
+Working on OutdoorMeasuredTemp
+([], [])
+ 
+Working on RoomRelativeHumid
+([], [])
+ 
+Working on AccelerationX
+(['accelerationx'], ['OBSERVABLE_PROP'])
+ 
+Working on AccelerationY
+(['accelerationy'], ['OBSERVABLE_PROP'])
+ 
+Working on Temperature
+(['temperature'], ['OBSERVABLE_PROP'])
+ 
+Working on AccelerationZ
+(['accelerationz'], ['OBSERVABLE_PROP'])
+ 
+Working on Pressure
+([], [])
+ 
+Working on Temperature
+(['temperature'], ['OBSERVABLE_PROP'])
+ 
+Working on Humidity
+(['humidity'], ['OBSERVABLE_PROP'])
+ 
+Working on Temperature
+(['temperature'], ['OBSERVABLE_PROP'])
+ 
+Working on Humidity
+(['humidity'], ['OBSERVABLE_PROP'])
+ 
+Working on Temperature
+(['temperature'], ['OBSERVABLE_PROP'])
+ 
+Working on Temperature
+(['temperature'], ['OBSERVABLE_PROP'])
+ 
+Working on Temperature
+(['temperature'], ['OBSERVABLE_PROP'])
+ 
+Working on The oil viscosity (%)
+(['%'], ['UNIT_SHORT'])
+ 
+Working on outputTemp
+([], [])
+ 
+Working on Output temperature ([0 .. +50] Celsius degrees)
+(['temperature', 'celsius', 'degrees'], ['OBSERVABLE_PROP', 'UNIT_SHORT', 'UNIT_SHORT'])
+ 
+Working on targetTemp
+(['targettemp'], ['OBSERVABLE_PROP'])
+ 
+Working on Target temperature ([0 .. +50] Celsius degrees)
+(['celsius', 'degrees'], ['UNIT_SHORT', 'UNIT_SHORT'])
+ 
+Working on Vibration (KHz) - normal 1 kHz, +/- 2%
+(['khz', '/', '%'], ['UNIT_SHORT', 'UNIT_SHORT', 'UNIT_SHORT'])
+ 
+Working on time
+(['time'], ['OBSERVABLE_PROP'])
+ 
+Working on Current time
+(['time'], ['OBSERVABLE_PROP'])
+ 
+Working on humidity
+(['humidity'], ['OBSERVABLE_PROP'])
+ 
+Working on temperature
+(['temperature'], ['OBSERVABLE_PROP'])
+ 
+Working on temp
+(['temp'], ['OBSERVABLE_PROP'])
+ 
+Working on In degrees Celsius
+(['degrees celsius'], ['UNIT_LONG'])
+ 
+Working on humidity
+(['humidity'], ['OBSERVABLE_PROP'])
+ 
+Working on The relative humidity value in percent.
+(['humidity', 'percent'], ['OBSERVABLE_PROP', 'UNIT_LONG'])
+ 
+Working on Status of automatic white balance temperature mode.
+([], [])
+ 
+Working on White Balance Temperature Auto Mode.
+([], [])

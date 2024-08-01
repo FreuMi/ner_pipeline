@@ -1,0 +1,111 @@
+Working on Temperature
+['Temperature'] ['obs_prop']
+
+Working on Humidity
+['Humidity'] ['obs_prop']
+
+Working on desiredTemp
+['desiredTemp'] ['obs_prop']
+
+Working on desiredTemp
+
+Working on desiredTemp
+['desiredTemp'] ['obs_prop']
+
+Working on desiredTemp
+['desiredTemp'] ['obs_prop']
+
+Working on RoomMeasuredTemp
+['RoomMeasuredTemp'] ['obs_prop']
+
+Working on DesiredTemp
+['DesiredTemp'] ['obs_prop']
+
+Working on OutdoorMeasuredTemp
+['OutdoorMeasuredTemp'] ['obs_prop']
+
+Working on RoomRelativeHumid
+['RoomRelativeHumid'] ['obs_prop']
+
+Working on AccelerationX
+['AccelerationX'] ['obs_prop']
+
+Working on AccelerationY
+['AccelerationY'] ['obs_prop']
+
+Working on Temperature
+['Temperature'] ['obs_prop']
+
+Working on AccelerationZ
+['AccelerationZ'] ['obs_prop']
+
+Working on Pressure
+['Pressure'] ['obs_prop']
+
+Working on Temperature
+['Temperature'] ['obs_prop']
+
+Working on Humidity
+['Humidity'] ['obs_prop']
+
+Working on Temperature
+['Temperature'] ['obs_prop']
+
+Working on Humidity
+['Humidity'] ['obs_prop']
+
+Working on Temperature
+['Temperature'] ['obs_prop']
+
+Working on Temperature
+['Temperature'] ['obs_prop']
+
+Working on Temperature
+['Temperature'] ['obs_prop']
+
+Working on The oil viscosity (%)
+['%', 'oil viscosity'] ['unit', 'obs_prop']
+
+Working on outputTemp
+['outputTemp'] ['obs_prop']
+
+Working on Output temperature ([0 .. +50] Celsius degrees)
+['+50', 'Celsius degrees', 'temperature', 'degrees'] ['unit', 'unit', 'obs_prop', 'obs_prop']
+
+Working on targetTemp
+['targetTemp'] ['obs_prop']
+
+Working on Target temperature ([0 .. +50] Celsius degrees)
+['Celsius degrees', 'Target temperature', 'Celsius degrees'] ['unit', 'obs_prop', 'obs_prop']
+
+Working on Vibration (KHz) - normal 1 kHz, +/- 2%
+['KHz', 'KHz', '2%', 'Vibration'] ['unit', 'unit', 'unit', 'obs_prop']
+
+Working on time
+['time'] ['unit']
+
+Working on Current time
+['Current time'] ['obs_prop']
+
+Working on humidity
+['humidity'] ['obs_prop']
+
+Working on temperature
+['temperature'] ['obs_prop']
+
+Working on temp
+
+Working on In degrees Celsius
+['degrees Celsius', 'degrees Celsius'] ['unit', 'obs_prop']
+
+Working on humidity
+['humidity'] ['obs_prop']
+
+Working on The relative humidity value in percent.
+['percent', 'relative humidity'] ['unit', 'obs_prop']
+
+Working on Status of automatic white balance temperature mode.
+['temperature', 'white balance', 'temperature'] ['unit', 'obs_prop', 'obs_prop']
+
+Working on White Balance Temperature Auto Mode.
+['White Balance Temperature', 'Auto Mode'] ['obs_prop', 'obs_prop']

@@ -1,0 +1,38 @@
+Temperature
+Humidity
+desiredTemp
+desiredTemp
+desiredTemp
+desiredTemp
+RoomMeasuredTemp
+DesiredTemp
+OutdoorMeasuredTemp
+RoomRelativeHumid
+AccelerationX
+AccelerationY
+Temperature
+AccelerationZ
+Pressure
+Temperature
+Humidity
+Temperature
+Humidity
+Temperature
+Temperature
+Temperature
+The oil viscosity (%)
+outputTemp
+Output temperature ([0 .. +50] Celsius degrees)
+targetTemp
+Target temperature ([0 .. +50] Celsius degrees)
+Vibration (KHz) - normal 1 kHz, +/- 2%
+time
+Current time
+humidity
+temperature
+temp
+In degrees Celsius
+humidity
+The relative humidity value in percent.
+Status of automatic white balance temperature mode.
+White Balance Temperature Auto Mode.
