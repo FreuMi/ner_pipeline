@@ -4,7 +4,7 @@ import numpy as np
 def create_db(model):
     # QUDT units and URIs, including abbreviations
     qudt_units = ["Siemens", "S", "Second", "s", "Ampere", "A", "Angstrom", "Å", "Gram", "gm", \
-                  "Tesla", "T", "Voltage", "V", "m^3", "l", "m", "t", "K", "g", "nm"]
+                  "Tesla", "T", "Voltage", "V", "m^3", "l", "m", "t", "K", "g", "nm", "Hz", "kPa", "m/s", "eV", "°C", "dB", "kHz"]
     
     qudt_unit_uris = {
         "Siemens": "https://qudt.org/vocab/unit/S",
@@ -27,7 +27,14 @@ def create_db(model):
         "t": "https://qudt.org/vocab/unit/TON_Metric",
         "K": "https://qudt.org/vocab/unit/K",
         "g": "https://qudt.org/vocab/unit/G",
-        "nm": "https://qudt.org/vocab/unit/NanoM"
+        "nm": "https://qudt.org/vocab/unit/NanoM",
+        "Hz": "https://qudt.org/vocab/unit/HZ",
+        "kPa": "https://qudt.org/vocab/unit/KiloPA",
+        "m/s": "https://qudt.org/vocab/unit/M-PER-SEC",
+        "eV": "https://qudt.org/vocab/unit/EV",
+        "°C": "https://qudt.org/vocab/unit/DEG_C",
+        "dB": "https://qudt.org/vocab/unit/DeciB",
+        "kHz": "https://qudt.org/vocab/unit/KiloHZ"
     }
 
     # observable properties and Wikidata URIs

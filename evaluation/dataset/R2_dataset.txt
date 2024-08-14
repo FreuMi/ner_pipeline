@@ -1,0 +1,50 @@
+Typically a mean electric conductance of 25 S.
+Time measured in s.
+The current through the circuit is 5 A.
+The width of a hydrogen atom is about 1.1 A.
+The mass m of the sample is 20 g.
+The phone is capable of processing 5 g signals.
+The magnetic flux density is 20 T.
+The temperature is T is 20 K.
+This is the volume V.
+Median voltage is 10 V.
+Executed at time t, exactly 5 s.
+The mass m of the element is 5 t.
+The time starts 20 S after init.
+The mass of the apple is 150 g.
+The magnetic field strength is 2 T.
+We have the surface area is A.
+In this example the start time is t and measured in s.
+We observe the temperature defined as T.
+The gravitaional force of earth is 1 g.
+The mass m is 500 g.
+The value of g on the moon is equal to 1.625.
+4 g signals have been introduced in 2017.
+object1 has a mass m.
+The conductivity is 5 S.
+The length has the symbol l.
+The volume V is 5 l.
+The area A of a circle.
+The voltage U is 50 V.
+The length l is 20 m.
+An Angstrom A is defined as 0.1 nm.
+The pressure T inside the container is 100 kPa.
+The frequency f of the wave is 50 Hz.
+The entropy S of the system increases with temperature.
+The speed v of the object is 9.8 m/s.
+The photon energy E of light is 3 eV.
+The radius r of the circle is 5 m.
+Data m is not available.
+Input voltage: 5V.
+Inherent galvanic insulation provides a 420 V lifetime working voltage.
+The draws a maximum supply current of 6 A.
+All sensitivity options are specified over the operating temperature range of –40°C to +125°C.
+S is the ideal sensitivity of the device.
+Power supply rejection ratio is the change in device offset due to variation of supply voltage from the nominal 5 V.
+The sampling interval implies an effective Nyquist frequency of 1250 Hz.
+The bandwidth is defined by the –3-dB spectral response.
+Adding a first order filter of 100 kHz effectively smooths the output waveform.
+20Hz duty cycle.
+The device BOP m must be set to any value up to 15 T.
+Each current source l is 80 A.
+The container V holds a capacity of 3 l.
