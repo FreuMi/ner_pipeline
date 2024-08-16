@@ -1,7 +1,6 @@
 import ollama
 import os
 import re
-import rdflib
 
 def get_query_verify_unit(sentence, word):  
     query = f""" 
@@ -111,31 +110,6 @@ def query(sentence):
     
     res = response['message']['content']
     return res
-
-# Define SPARQL query to get td:name and td:description
-sparql_query = """
-PREFIX td: <https://www.w3.org/2019/wot/td#>
-SELECT DISTINCT ?name ?description
-WHERE { 
-  ?x td:name ?name .
-  OPTIONAL { ?x td:description ?description . }
-}
-"""
-
-def are_arrays_equal(arr1, arr2):
-    if len(arr1) != len(arr2):
-        return False
-    return sorted(arr1) == sorted(arr2)
-
-def read_lines_from_file(file_path):
-    try:
-        with open(file_path, 'r') as file:
-            lines = file.readlines()
-            lines = [line.strip() for line in lines]
-        return lines
-    except Exception as e:
-        print(e)
-        return str(e)
 
 def read_file(file_path):
     try:

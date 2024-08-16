@@ -93,13 +93,13 @@ def get_entities(res):
     return tags
 
 qudt_unit_uris = {
-        "Siemens": "https://qudt.org/vocab/unit/S",
-        "Second": "https://qudt.org/vocab/unit/SEC",
-        "Ampere": "https://qudt.org/vocab/unit/A",
-        "Angstrom": "https://qudt.org/vocab/unit/ANGSTROM",
-        "Gram": "https://qudt.org/vocab/unit/GM",
-        "Tesla": "https://qudt.org/vocab/unit/T",
-        "Voltage": "https://qudt.org/vocab/unit/V",
+        "siemens": "https://qudt.org/vocab/unit/S",
+        "second": "https://qudt.org/vocab/unit/SEC",
+        "ampere": "https://qudt.org/vocab/unit/A",
+        "angstrom": "https://qudt.org/vocab/unit/ANGSTROM",
+        "gram": "https://qudt.org/vocab/unit/GM",
+        "tesla": "https://qudt.org/vocab/unit/T",
+        "voltage": "https://qudt.org/vocab/unit/V",
         "cubic meter": "https://qudt.org/vocab/unit/M3",
         "liter": "https://qudt.org/vocab/unit/L",
         "meter": "https://qudt.org/vocab/unit/M",
@@ -108,20 +108,20 @@ qudt_unit_uris = {
         "acceleration g": "https://qudt.org/vocab/unit/G",
         "nanometer": "https://qudt.org/vocab/unit/NanoM",
         "hertz": "https://qudt.org/vocab/unit/HZ",
-        "kilo Pascal": "https://qudt.org/vocab/unit/KiloPA",
+        "kilo pascal": "https://qudt.org/vocab/unit/KiloPA",
         "meter per second": "https://qudt.org/vocab/unit/M-PER-SEC",
         "electronvolt": "https://qudt.org/vocab/unit/EV",
-        "degree Celsius": "https://qudt.org/vocab/unit/DEG_C",
+        "degree celsius": "https://qudt.org/vocab/unit/DEG_C",
         "decibel": "https://qudt.org/vocab/unit/DeciB",
         "kilo hertz": "https://qudt.org/vocab/unit/KiloHZ",
-        "none": "",
-        "None": ""
+        "none": ""
     }
 
 if __name__ == "__main__":
     # Load dataset  
     file_entries = read_file("./dataset/R2_dataset.txt").split("\n")
 
+    start_total_time = time.time()
     with open("./results_R2_llm_only.txt", "a") as rf:
         cnt = 0
         for sentence in file_entries:
@@ -148,7 +148,7 @@ if __name__ == "__main__":
             stringResult = ""
             for element in final_units:
                 try:
-                    stringResult = stringResult + qudt_unit_uris[element.strip()] + ";"
+                    stringResult = stringResult + qudt_unit_uris[element.strip().lower()] + ";"
                 except:
                     stringResult = stringResult + element.strip() + ";"
             stringResult += "\n"   
@@ -156,3 +156,8 @@ if __name__ == "__main__":
             rf.flush() 
             end_time = time.time()
             print("Took ", end_time-start_time)
+            
+    stop_total_time = time.time()
+    
+    print("Total Time needed:", stop_total_time-start_total_time)
+    print("On average per sentence:", (stop_total_time-start_total_time)/cnt)

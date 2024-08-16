@@ -139,6 +139,8 @@ if __name__ == "__main__":
     # Load dataset 
     file_entries = read_file("./dataset/R2_dataset.txt").split("\n")
 
+    start_total_time = time.time()
+    
     with open("./results_R2_pipeline.txt", "a") as rf:
         cnt = 0
         for sentence in file_entries:
@@ -191,4 +193,8 @@ if __name__ == "__main__":
             rf.flush() 
             end_time = time.time()
             print("Took ", end_time-start_time)
+
+    stop_total_time = time.time()
     
+    print("Total Time needed:", stop_total_time-start_total_time)
+    print("On average per sentence:", (stop_total_time-start_total_time)/cnt)
