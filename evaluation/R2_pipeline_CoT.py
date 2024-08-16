@@ -43,7 +43,7 @@ def self_verification_unit(sentence, symbol_in_txt, symbol_of_unit, url):
     # Get RDF definition
     info = send_request(url)
     print("Request finished.")
-    
+        
     query = f""" 
         The task is to check if the given knowledge graph entitiy has the same meaning as the detected entity in the context of the given sentence and to decide if it should be linked.
         The general context is units of measurement, you need to pay attention to the prefixes.
@@ -52,21 +52,32 @@ def self_verification_unit(sentence, symbol_in_txt, symbol_of_unit, url):
         The knowledge graph entity is "{symbol_of_unit}" and the detected entity in the sentence is "{symbol_in_txt}".
         The definition in the knowledge grpah of "{symbol_of_unit}" is: ""{info}""
         
-        Answer only "yes" or "no".
+        Explain your reasoning in detail.
         
         Example 1:
         Sentence: mass m is measured in g.
         knowledge graph entity: GM
         detected entity: g
         definition: "A unit of mass in the metric system."
-        Answer: yes
+        Answer: The knowledge graph entity "GM" represents the unit gram, the SI unit of mass.
+        
+        * **Contextual Match:** The sentence states "mass m is measured in g". This explicitly refers to mass being measured in gram (g).
+        * **Definition Confirmation:** The knowledge graph definition confirms that "GM" stands for gram, the unit of measurement for mass.
+
+        **Therefore, based on the context and the knowledge graph definition, linking the detected entity "g" to the knowledge graph entity "GM" (gram) is the correct decision.**
         
         Example 2:
         Sentence: mass m is measured in g.
         knowledge graph entity: M-PER-SEC
         detected entity: m
         definition: "Metre per second is an SI derived unit of both speed and velocity."
-        Answer: no
+        
+        Answer: The knowledge graph entity "M-PER-SEC" represents the unit for speed or velocity.
+        
+        * **No Contextual Match:** The sentence states "mass m is measured in g". The sentence does not contain any reference to speed or velocity.
+        * **No Definition Confirmation:** The knowledge graph definition states that "M-PER-SEC" stands for metre per second, the unit of measurement for speed and velocity.
+
+        **Therefore, based on the context and the knowledge graph definition, linking the detected entity "g" to the knowledge graph entity "M-PER-SEC" (gram) does not make sense.**
         """
         
     response = ollama.chat(model=MODEL, messages=[
@@ -75,8 +86,27 @@ def self_verification_unit(sentence, symbol_in_txt, symbol_of_unit, url):
             'content': f'{query}',
         },
     ])
-    res = response['message']['content']  
+    res_tmp = response['message']['content']
+    print("TEMP for", url, res_tmp)
+    messages=[
+        {
+            'role': 'user',
+            'content': f'{query}',
+        },
+        {
+            'role': 'assistant',
+            'content': f'{res_tmp}',
+        },
+        {
+            'role': 'user',
+            'content': 'So please give me the final decision if the entity should be linked. Only answer "yes" or "no"',
+        },
+    ]
     
+    response = ollama.chat(model=MODEL, messages=messages)
+    
+    res = response['message']['content']    
+        
     print("Verification result:", res)
     
     if res.strip() == "yes" or res.strip() == "Yes":
@@ -139,7 +169,7 @@ if __name__ == "__main__":
     # Load dataset 
     file_entries = read_file("./dataset/R2_dataset.txt").split("\n")
 
-    with open("./results_R2_pipeline.txt", "a") as rf:
+    with open("./results_R2_pipeline_CoT.txt", "a") as rf:
         cnt = 0
         for sentence in file_entries:
             start_time = time.time()

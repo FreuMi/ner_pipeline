@@ -1,4 +1,0 @@
-https://qudt.org/vocab/unit/S;
-https://qudt.org/vocab/unit/SEC;
-https://qudt.org/vocab/unit/A;
-https://qudt.org/vocab/unit/ANGSTROM;

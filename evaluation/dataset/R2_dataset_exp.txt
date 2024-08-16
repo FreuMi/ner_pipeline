@@ -2,7 +2,7 @@ https://qudt.org/vocab/unit/S
 https://qudt.org/vocab/unit/SEC
 https://qudt.org/vocab/unit/A
 https://qudt.org/vocab/unit/ANGSTROM
-https://qudt.org/vocab/unit/G
+https://qudt.org/vocab/unit/GM
 
 https://qudt.org/vocab/unit/T
 https://qudt.org/vocab/unit/K
@@ -38,7 +38,7 @@ https://qudt.org/vocab/unit/M
 https://qudt.org/vocab/unit/V
 https://qudt.org/vocab/unit/V
 https://qudt.org/vocab/unit/A
-https://qudt.org/vocab/unit/DEG_C
+https://qudt.org/vocab/unit/DEG_C;https://qudt.org/vocab/unit/DEG_C;
 
 https://qudt.org/vocab/unit/V
 https://qudt.org/vocab/unit/HZ

@@ -9,7 +9,7 @@ The temperature is T is 20 K.
 This is the volume V.
 Median voltage is 10 V.
 Executed at time t, exactly 5 s.
-The mass m of the element is 5 t.
+The mass m of the object is 5 t.
 The time starts 20 S after init.
 The mass of the apple is 150 g.
 The magnetic field strength is 2 T.
