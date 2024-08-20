@@ -5,7 +5,7 @@ The width of a hydrogen atom is about 1.1 A.
 The mass m of the sample is 20 g.
 The phone is capable of processing 5 g signals.
 The magnetic flux density is 20 T.
-The temperature is T is 20 K.
+The temperature T is 20 K.
 This is the volume V.
 Median voltage is 10 V.
 Executed at time t, exactly 5 s.
@@ -45,6 +45,6 @@ The sampling interval implies an effective Nyquist frequency of 1250 Hz.
 The bandwidth is defined by the –3-dB spectral response.
 Adding a first order filter of 100 kHz effectively smooths the output waveform.
 20Hz duty cycle.
-The device BOP m must be set to any value up to 15 T.
+The devices B must be set to any value up to a strength of 15 T.
 Each current source l is 80 A.
 The container V holds a capacity of 3 l.

@@ -5,7 +5,7 @@ https://qudt.org/vocab/unit/ANGSTROM;
 https://qudt.org/vocab/unit/GM;https://qudt.org/vocab/unit/GM;
 https://qudt.org/vocab/unit/G;
 https://qudt.org/vocab/unit/T;
-Kelvin;https://qudt.org/vocab/unit/K;
+https://qudt.org/vocab/unit/K;https://qudt.org/vocab/unit/K;
 https://qudt.org/vocab/unit/L;
 https://qudt.org/vocab/unit/V;
 https://qudt.org/vocab/unit/SEC;https://qudt.org/vocab/unit/SEC;

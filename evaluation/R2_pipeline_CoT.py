@@ -45,41 +45,38 @@ def self_verification_unit(sentence, symbol_in_txt, symbol_of_unit, url):
     print("Request finished.")
         
     query = f""" 
-        The task is to check if the given knowledge graph entitiy has the same meaning as the detected entity in the context of the given sentence and to decide if it should be linked.
-        The general context is units of measurement, you need to pay attention to the prefixes.
-        
-        The input sentence is: {sentence} 
-        The knowledge graph entity is "{symbol_of_unit}" and the detected entity in the sentence is "{symbol_in_txt}".
-        The definition in the knowledge grpah of "{symbol_of_unit}" is: ""{info}""
-        
-        Explain your reasoning in detail.
-        
+        Task: Determine whether the given knowledge graph unit entity "{symbol_of_unit}" has the same meaning and relevance as the detected unit entity "{symbol_in_txt}" in the context of the provided sentence. You must decide whether the two entities should be linked. Consider both the meaning of the unit and the context in which it appears.
+
+        - Pay attention to prefixes and the context in which the unit is used.
+
+        Input sentence: "{sentence}"
+        Knowledge graph entity: "{symbol_of_unit}"
+        Detected entity in sentence: "{symbol_in_txt}"
+
+        Definition of "{symbol_of_unit}" in the knowledge graph: {info}
+
+        Instructions:
+        - Compare the detected entity "{symbol_in_txt}" in the sentence with the knowledge graph entity "{symbol_of_unit}".
+        - Contextual Matching: Consider the context of the sentence to determine the meaning of "{symbol_in_txt}" in the sentence. Does it represent the same concept as the knowledge graph entity "{symbol_of_unit}"?
+        - Definition Confirmation: Evaluate whether the definition of "{symbol_of_unit}" in the knowledge graph matches the meaning of "{symbol_in_txt}" in the sentence.
+        - Relevance: Determine if the two entities should be linked based on whether they represent the same unit in the given context.
+
+        Note: If the meaning of "{symbol_in_txt}" in the sentence does not align with the definition provided by the knowledge graph, the entities should not be linked.
+
         Example 1:
-        Sentence: mass m is measured in g.
-        knowledge graph entity: GM
-        detected entity: g
-        definition: "A unit of mass in the metric system."
-        Answer: The knowledge graph entity "GM" represents the unit gram, the SI unit of mass.
-        
-        * **Contextual Match:** The sentence states "mass m is measured in g". This explicitly refers to mass being measured in gram (g).
-        * **Definition Confirmation:** The knowledge graph definition confirms that "GM" stands for gram, the unit of measurement for mass.
+        - Sentence: "mass m is measured in g."
+        - Knowledge graph entity: "GM"
+        - Detected entity: "g"
+        - Definition: "A unit of mass in the metric system."
+        - Answer: The detected entity "g" refers to grams, which matches the knowledge graph entity "GM." Therefore, the entities should be linked.
 
-        **Therefore, based on the context and the knowledge graph definition, linking the detected entity "g" to the knowledge graph entity "GM" (gram) is the correct decision.**
-        
         Example 2:
-        Sentence: mass m is measured in g.
-        knowledge graph entity: M-PER-SEC
-        detected entity: m
-        definition: "Metre per second is an SI derived unit of both speed and velocity."
-        
-        Answer: The knowledge graph entity "M-PER-SEC" represents the unit for speed or velocity.
-        
-        * **No Contextual Match:** The sentence states "mass m is measured in g". The sentence does not contain any reference to speed or velocity.
-        * **No Definition Confirmation:** The knowledge graph definition states that "M-PER-SEC" stands for metre per second, the unit of measurement for speed and velocity.
-
-        **Therefore, based on the context and the knowledge graph definition, linking the detected entity "g" to the knowledge graph entity "M-PER-SEC" (gram) does not make sense.**
-        """
-        
+        - Sentence: "f in Hz."
+        - Knowledge graph entity: "kiloHZ"
+        - Detected entity: "Hz"
+        - Definition: "Kilohertz (kHz) is a unit of frequency."
+        - Answer: The detected entity "Hz" refers to hertz, not kilohertz. The entities should not be linked.
+ """    
     response = ollama.chat(model=MODEL, messages=[
         {
             'role': 'user',

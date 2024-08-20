@@ -6,23 +6,23 @@ https://qudt.org/vocab/unit/GM;
 
 https://qudt.org/vocab/unit/T;
 https://qudt.org/vocab/unit/K;
-https://qudt.org/vocab/unit/V;
+
 https://qudt.org/vocab/unit/V;
 https://qudt.org/vocab/unit/SEC;
-https://qudt.org/vocab/unit/TON_Metric;
+https://qudt.org/vocab/unit/T;https://qudt.org/vocab/unit/TON_Metric;
 https://qudt.org/vocab/unit/SEC;
 https://qudt.org/vocab/unit/GM;
 https://qudt.org/vocab/unit/T;
 
 https://qudt.org/vocab/unit/SEC;
-https://qudt.org/vocab/unit/DEG_C;
-https://qudt.org/vocab/unit/GM;
-https://qudt.org/vocab/unit/GM;
 
+https://qudt.org/vocab/unit/G;
 https://qudt.org/vocab/unit/GM;
-https://qudt.org/vocab/unit/M;
+https://qudt.org/vocab/unit/G;
+
+
 https://qudt.org/vocab/unit/S;
-
+https://qudt.org/vocab/unit/L;
 https://qudt.org/vocab/unit/L;
 
 https://qudt.org/vocab/unit/V;
@@ -38,13 +38,13 @@ https://qudt.org/vocab/unit/M;
 https://qudt.org/vocab/unit/V;
 https://qudt.org/vocab/unit/V;
 https://qudt.org/vocab/unit/A;
-https://qudt.org/vocab/unit/DEG_C;https://qudt.org/vocab/unit/DEG_C;
+
 
 https://qudt.org/vocab/unit/V;
 https://qudt.org/vocab/unit/HZ;
-
-https://qudt.org/vocab/unit/KiloHZ;
+https://qudt.org/vocab/unit/DeciB;
+https://qudt.org/vocab/unit/KiloHZ;https://qudt.org/vocab/unit/HZ;
 https://qudt.org/vocab/unit/HZ;
-https://qudt.org/vocab/unit/T;https://qudt.org/vocab/unit/TON_Metric;
+https://qudt.org/vocab/unit/T;
 https://qudt.org/vocab/unit/A;
 https://qudt.org/vocab/unit/L;
