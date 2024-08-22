@@ -1,6 +1,6 @@
 import sys
 
-RESULT_FILE_PATH = "./results_R2_pipeline_CoT.txt"
+RESULT_FILE_PATH = "./results_R2_pipeline.txt"
 RESULT_REFERENCE_FILE_PATH = "./dataset/R2_dataset_exp.txt"
 
 true_positives = 0

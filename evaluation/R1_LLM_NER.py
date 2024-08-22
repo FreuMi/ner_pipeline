@@ -1,6 +1,7 @@
 import ollama
 import os
 import re
+import time
 
 def get_query_verify_unit(sentence, word):  
     query = f""" 
@@ -142,7 +143,6 @@ def true_or_false(res):
     if res == "Yes" or res == "yes":
         return True
     else:
-        print(res)
         return False
 
 def inference(sentence):
@@ -189,9 +189,10 @@ def inference(sentence):
     
     return res, label
     
-    
 # Load file 
 file_entries = read_file("./dataset/R1_dataset.txt").split("\n")
+
+start_total_time = time.time()
 
 for sentence in file_entries:
         print("Working on", sentence)
@@ -199,4 +200,10 @@ for sentence in file_entries:
         found_elements, found_elements_labels = inference(sentence)
         if len(found_elements) != 0:
             print(found_elements, found_elements_labels)
+            
+            
+stop_total_time = time.time()
+    
+print("Total Time needed:", stop_total_time-start_total_time)
+print("On average per sentence:", (stop_total_time-start_total_time)/len(file_entries))
     
