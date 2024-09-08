@@ -9,7 +9,7 @@ How accurate is the foundational LLM-based NER approach for extracting entities 
 
 To compare the classical fine-tuned NER model with the LLM-based NER approach:
 
-1. Obtain the fine-tuned model from the [NER model repository](https://github.com/FreuMi/NER_Training). Place the output directory of the training script in this directory.
+1. Obtain the fine-tuned model from the NER model repository. Place the output directory of the training script in this directory.
 2. The dataset for validation is available [online](https://www.vcharpenay.link/talks/td-sem-interop.html). Relevant natural language annotations have been extracted for simplicity.
 3. Install the [Ollama](https://ollama.com/) framework and download the Gemma2:27b model.
 
